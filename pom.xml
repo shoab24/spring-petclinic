@@ -13,7 +13,12 @@
     <version>1.4.2.RELEASE</version>
   </parent>
   <name>petclinic</name>
-
+<repositories>
+<repository>
+<id>nexus</id>
+<url>http://localhost:8081/repository/maven-public/</url>
+</repository>
+</repositories>
   <properties>
 
     <!-- Generic properties -->
